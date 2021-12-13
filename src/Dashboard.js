@@ -1,9 +1,9 @@
-import Button from '@mui/material/Button';
+import AppBar from './AppBar';
 
 function Dashboard() {
   return (
     <div className="Dashboard">
-      <Button variant="contained">Hello World</Button>
+      <AppBar/>
     </div>
   );
 }
